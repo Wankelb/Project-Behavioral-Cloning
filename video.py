@@ -1,9 +1,10 @@
 from moviepy.editor import ImageSequenceClip
 import argparse
 import os
+import imageio  
+
 
 IMAGE_EXT = ['jpeg', 'gif', 'png', 'jpg']
-
 
 def main():
     parser = argparse.ArgumentParser(description='Create driving video.')
