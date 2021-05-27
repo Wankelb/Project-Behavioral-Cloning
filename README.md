@@ -40,13 +40,35 @@ python drive.py model.h5
 ```
 The Pipeline
 ---
+
+![](/cameraangles.png)
+
+
+
+
 1. Loading the raw data
-2. Dataset summary and visual exploration
-3. Data set consists of 1081 camera images
-4. Data Augmentation
+3. Dataset summary and visual exploration
+4. Data set consists of 1081 camera images
+5. Data Augmentation
 Here the image is reduced and only reduced
 No further image processing was used because the result of the architecture was, as expected, good
 5. the CNN Architecture with Keras
- ![](/NVIDIA.jpg)
+
+
+
+
+
+![](/NVIDIA.jpg)
+
+6.Compiling
+
+
+
+7.Saving
+Furthermore, I did not add the dropout layers and was using only the NVIDIA model as is. To stay low, I started with 14 epochs of training. This was too much. Then i downsized the epochs number. I caught finally with 5 epochs the best result.  
+
+
+
+![](/result_image.png)
 
 
