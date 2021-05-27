@@ -47,6 +47,6 @@ The Pipeline
 Here the image is reduced and only reduced
 No further image processing was used because the result of the architecture was, as expected, good
 5. the CNN Architecture with Keras
- 
+ ![](/NVIDIA.jpg)
 
 
